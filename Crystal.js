@@ -3,12 +3,12 @@ const layerConstructors = [
   {
     name: 'Outline Shape',
     init: () => OutlineShape(initState),
-    weight: 0.7
+    weight: 0.9
   },
   {
     name: 'Centered Shape',
     init: () => CenteredShape(initState),
-    weight: 0.5
+    weight: 0.4
   },
   {
     name: 'Circles',
@@ -18,7 +18,7 @@ const layerConstructors = [
   {
     name: 'Simple Lines',
     init: () => SimpleLines(initState),
-    weight: 0.3
+    weight: 0.8
   },
   {
     name: 'Dotted Lines',
